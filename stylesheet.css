@@ -20,7 +20,7 @@ ul {
 }
 
 .font {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     font-family: sans-serif;
 }
@@ -63,7 +63,7 @@ color: white;
     
 }
 .measure{
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color:green;
     display: flex;
@@ -84,6 +84,6 @@ color: white;
     justify-content:space-between;
     align-items: center;
     text-transform: uppercase;
-    gap: 70px;
+    gap: 50px;
    
 }
