@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img,
+a,
+button {
+    display: block;
+    text-decoration: none;
+}
+
+:root {
+    --green-color: #0A4245;
+}
+
+ul {
+    list-style: none;
+}
+
+.font {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.measurement {
+    height: 40px;
+    width: 100%;
+}
+
+.bg-color {
+    background-color: var(--green-color);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.danger {
+    height: 20px;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    margin-right: 70px;
+}
+.faq{
+    color: white;
+}
+.icons{
+margin-left: 1000px;
+gap: 10px;
+display: flex;
+color: white;
+}
+.logo{
+    height: 80px;
+    width: 15%;
+    
+}
+.measure{
+    height: 100px;
+    width: 100%;
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.home{
+    height: 80px;
+    width: 60%;
+    background-color: aqua;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 70px;
+   
+}
