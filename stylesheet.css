@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +24,8 @@ ul {
 .font {
     font-size: 14px;
     font-weight: 400;
-    font-family: sans-serif;
+    font-family: "DM Sans", sans-serif;
+
 }
 
 .measurement {
@@ -48,45 +51,137 @@ ul {
     display: flex;
     margin-right: 70px;
 }
-.faq{
+
+.faq {
     color: white;
 }
-.icons{
-margin-left: 1000px;
-gap: 10px;
-display: flex;
-color: white;
+
+.icons {
+    margin-left: 1000px;
+    gap: 10px;
+    display: flex;
+    color: white;
 }
-.logo{
+
+.logo {
     height: 80px;
     width: 15%;
-    
+
 }
-.measure{
-    height: 150px;
+
+.measure {
+    height: 100px;
     width: 100%;
-    background-color:rgba(128, 128, 128, 0.096);
+    background-color: rgba(128, 128, 128, 0.096);
     display: flex;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.home{
+
+.home {
     height: 80px;
-    width: 60%;
-    background-color: aqua;
+    width: 70%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
-.about{
+
+.logo {
+    height: 70px;
+    width: 30%;
     display: flex;
-    justify-content:space-between;
+    margin-left: 80px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     text-transform: uppercase;
-    gap: 30px; 
+    gap: 50px;
 }
-.btn{
-height: 30px;
-width: 60px;
-border-radius: 4px;
+
+.about a {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.about a:hover {
+    color: #4EBFC5;
+}
+
+.btn {
+    height: 30px;
+    width: 60px;
+    border-radius: 4px;
+    border-color: azure;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: green;
+}
+
+.who {
+    height: 250px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
+.are {
+    height: 150px;
+    width: 20%;
+    color: azure;
+    padding-top: 35px;
+}
+
+.they {
+    height: 150px;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 110px;
+    padding-right: 110px;
+    color: #035457;
+    font-weight: 500;
+}
+.animal{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "DM Sans", sans-serif;
+}
+.kill{
+    text-align: center;
+}
+.big{
+    font-size: 55px;
+    color: #035457;
+}
+.smile{
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 500;
+}
+.solid{
+    color: #035457;
+    font-size: 14px;
+}
+#fa{
+    color: black;
+    font-size:40px;
+    font-weight: 700;
+}
+.collected{
+    font-size: 14px;
+    font-weight: 700;
+}
+.bg-image{
+    background-image: url(img/);
 }
