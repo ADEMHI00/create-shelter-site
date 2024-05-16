@@ -65,11 +65,10 @@ color: white;
 .measure{
     height: 150px;
     width: 100%;
-    background-color:green;
+    background-color:rgba(128, 128, 128, 0.096);
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .home{
     height: 80px;
@@ -84,6 +83,10 @@ color: white;
     justify-content:space-between;
     align-items: center;
     text-transform: uppercase;
-    gap: 50px;
-   
+    gap: 30px; 
+}
+.btn{
+height: 30px;
+width: 60px;
+border-radius: 4px;
 }
