@@ -77,6 +77,8 @@ ul {
     justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* position:fixed;
+    top: 10px; */
 }
 
 .home {
@@ -152,36 +154,372 @@ ul {
     color: #035457;
     font-weight: 500;
 }
-.animal{
+
+.animal {
     font-size: 20px;
     font-weight: 300;
     font-family: "DM Sans", sans-serif;
 }
-.kill{
+
+.kill {
     text-align: center;
 }
-.big{
+
+.big {
     font-size: 55px;
     color: #035457;
 }
-.smile{
+
+.smile {
     font-size: 25px;
     font-family: "DM Sans", sans-serif;
     font-weight: 500;
 }
-.solid{
+
+.solid {
     color: #035457;
     font-size: 14px;
 }
-#fa{
+
+#fa {
     color: black;
-    font-size:40px;
+    font-size: 40px;
     font-weight: 700;
 }
-.collected{
+
+.collected {
     font-size: 14px;
     font-weight: 700;
 }
-.bg-image{
-    background-image: url(img/);
+
+.bg-image {
+    background-image: url(img/Horse\ Breeds.jpeg);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sac {
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    ;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.dogs {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.birds {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.learn {
+    height: 50px;
+    width: 120px;
+    background-color: aqua;
+    border: 0;
+    border-radius: 5px;
+}
+
+.padding1 {
+    padding-top: 80px;
+    padding-left: 400px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #0a4245b7;
+}
+
+.january {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    background-color: #4EBFC5;
+    height: 130px;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 150px;
+    padding-top: 20px;
+    border-left: 0.5px solid #e1e1e1;
+    border-right: 0.5px solid #e1e1e1;
+    border: 0;
+}
+
+.counted {
+    height: 130px;
+    width: 15%;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-bottom: 150px;
+    padding-top: 20px;
+    border-left: 0.5px solid #e1e1e1;
+    border-right: 0.5px solid #e1e1e1;
+}
+
+
+.feb {
+    color: #616373;
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.mar {
+    color: #0a4245;
+    font-size: 25px;
+}
+
+.april {
+    color: #4EBFC5;
+}
+
+.may {
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.june {
+    height: 700px;
+    width: 90%;
+    /* background-color: white; */
+}
+
+.july {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: #4EBFC5;
+    padding-bottom: 10px;
+}
+
+.august {
+    font-size: 45px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    color: #0a4245;
+    padding-bottom: 10px;
+}
+
+.sept {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    color: #696b7e;
+    padding-bottom: 10px;
+}
+
+.padding {
+    padding-top: 10px;
+    padding-left: 400px;
+}
+
+.margin {
+    padding-top: 40px;
+}
+
+.oct {
+    display: flex;
+    padding-left: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.face {
+    height: 50px;
+    width: 50px;
+    border: 0;
+    border-radius: 25px;
+    background: #3b5998;
+    ;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.display {
+    display: flex;
+
+}
+
+.dash {
+    height: 100px;
+    width: 250px;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    color: #035457;
+}
+
+.board {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.hand {}
+
+.img-dog {
+    background-image: url(img/mmmmmmmmmm.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 60%;
+    margin-right: 300px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+.mike {
+    height: 120px;
+    width: 400px;
+    background-color: aliceblue;
+    box-shadow: 5px 5px green;
+    margin-top: 250px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.need {
+    font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cnn {
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-new {
+    background-image: url(img/AS-SEEN-IN-2-1024x306.png);
+    height: 300px;
+    width: 54%;
+}
+
+.greencolor {
+    height: 800px;
+    width: 100%;
+    background-color: #063133;
+    padding-top: 80px;
+}
+
+.centralized {
+    text-align: center;
+    color: #034042;
+}
+
+.solidd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.star {
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: rgb(78, 191, 197);
+    padding-bottom: 30px;
+}
+
+.while {
+    font-size: 40px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.img-cat {
+    background-image: url(img/whysac_cat.jpg);
+    height: 450px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-bunny{
+    background-image: url(img/whysac_bunny.jpg);
+    height: 450px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-family {
+    background-image: url(img/whysac_family.jpg);
+    height: 450px;
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.miss {
+    height: 220px;
+    width: 200px;
+    background-color: aliceblue;
+    color: #063133;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.misscat {
+    height: 25px;
+    width: 25px;
+    border-color: #0a4245;
+    border-radius: 14px;
+    align-items: center;
+
+}
+
+.estimate {
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.needed {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding-left: 300px;
 }
